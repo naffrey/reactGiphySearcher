@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from '../giphy-searcher-logo.svg';
 
 const SearchHeader = ({ lastSearch }) => {
 	return (
 		<header>
 			<div className='brand'>
-				<img src={logo} alt='' />
+
 				<h1>Giphy Searcher</h1>
 			</div>
 			<p className='muted'>
