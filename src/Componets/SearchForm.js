@@ -1,20 +1,23 @@
 import React from 'react';
 
-function SearchForm(props) {
-    return (
-			<div>
-				<form className='searchBar'>
-					<input
-						required
-						placeholder='search'
-						type='text'
-						name='SearchString'
-		                />
-					<button type='submit'>Submit</button>
-					
-				</form>
-			</div>
-		);
-}
+
+
+const SearchForm = ({ handleChange, handleSubmit, searchString }) => {
+	return (
+		<form onSubmit={handleSubmit} className='form-horizontal'>
+			<input
+				placeholder='Search'
+				type='text'
+				name='searchString'
+				required
+				onChange={handleChange}
+				value={searchString}
+			/>
+			<button type='submit'>
+				
+			</button>
+		</form>
+	);
+};
 
 export default SearchForm;
