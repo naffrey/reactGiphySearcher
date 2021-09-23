@@ -21,4 +21,4 @@ const SearchForm = ({ handleChange, handleSubmit, searchString }) => {
 	);
 };
 
-export default SearchForm;
+export default SearchForm; 
