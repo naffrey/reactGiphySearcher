@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import SearchForm from './Componets/SearchForm';
-import SearchResults from './Componets/SearchResults';
-import SearchHeader from './Componets/SearchHeader';
+import SearchForm from './Components/SearchForm';
+import SearchResults from './Components/SearchResults';
+import SearchHeader from './Components/SearchHeader';
+
 
 // const images = [
 //         {id:1,
